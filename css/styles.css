@@ -1,0 +1,185 @@
+/*****  DEFAULTS FIXES  *****/
+p, td, caption{
+    font-family: "Droid Serif", Georgia, Times, serif;
+}
+/*****  EXTRA STYLING   *****/
+html{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+body{
+    background-color: #ecf0f1;
+}
+header{
+    background-color: #e74c3c;
+}
+table{
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-top: 1px solid #e74c3c;
+    border-right: 1px solid #e74c3c;
+    border-bottom: 6px solid #e74c3c;
+    border-left: 1px solid #e74c3c;
+}
+.jumbotron h1{
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-top: 1px solid #ecf0f1;
+    border-right: 1px solid #ecf0f1;
+    border-bottom: 6px solid #ecf0f1;
+    border-left: 1px solid #ecf0f1;
+}
+.jumbotron h3{
+    color: #ecf0f1;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+}
+form{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+footer{
+    background-color: #e74c3c;
+}
+#wrapper{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+a:visited{
+    color: #3e3e3e;
+}
+#banner1{
+    border-radius: 3px;
+    max-width: 100%;
+}
+#banner2{
+    border-radius: 3px;
+    max-width: 100%;
+    display: none;
+}
+#banner3{
+    border-radius: 3px;
+    max-width: 100%;
+    display: none;
+}
+#title{
+    transition-duration: 1s;
+    color: #e74c3c;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-top: 1px solid #e74c3c;
+    border-right: 1px solid #e74c3c;
+    border-bottom: 6px solid #e74c3c;
+    border-left: 4px solid #e74c3c;
+}
+#title1{
+    color: #f39c12;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-top: 1px solid #f39c12;
+    border-right: 1px solid #f39c12;
+    border-bottom: 6px solid #f39c12;
+    border-left: 4px solid #f39c12;
+}
+#content1{
+    padding: 10px;
+    background-color: rgba(243, 156, 18, 0.7);
+}
+#title2{
+    color: #1abc9c;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-top: 1px solid #1abc9c;
+    border-right: 1px solid #1abc9c;
+    border-bottom: 6px solid #1abc9c;
+    border-left: 4px solid #1abc9c;
+}
+#content2{
+    padding: 10px;
+    background-color: rgba(26, 188, 156, 0.7);
+}
+#title3{
+    color: #9b59b6;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-top: 1px solid #9b59b6;
+    border-right: 1px solid #9b59b6;
+    border-bottom: 6px solid #9b59b6;
+    border-left: 4px solid #9b59b6;
+}
+#content3{
+    padding: 10px;
+    background-color: rgba(155, 89, 182, 0.7);
+}
+#center{
+    text-align: center;
+}
+/*****  MAPS    *****/
+#map1{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=Algonquin+Athletic+Field+Complex&zoom=17&size=800x300&maptype=hybrid&key=AIzaSyBV2eMU1Bt-kPNuO7azMl_dZBwwR7G6lv8);
+    background-repeat: no-repeat;
+}
+#map2{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=45.3447223,-75.7172132&zoom=16&size=800x300&maptype=hybrid&key=AIzaSyBV2eMU1Bt-kPNuO7azMl_dZBwwR7G6lv8);
+    background-repeat: no-repeat;
+}
+#map3{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=45.4436659,-75.575327&zoom=16&size=800x300&maptype=hybrid&key=AIzaSyBV2eMU1Bt-kPNuO7azMl_dZBwwR7G6lv8);
+    background-repeat: no-repeat;
+}
+#map4{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=45.3246278,-75.7701187&zoom=16&size=800x300&maptype=hybrid&key=AIzaSyBV2eMU1Bt-kPNuO7azMl_dZBwwR7G6lv8);
+    background-repeat: no-repeat;
+}
+#map5{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=45.3422952,-75.6270796&zoom=18&size=800x300&maptype=hybrid&key=AIzaSyBV2eMU1Bt-kPNuO7azMl_dZBwwR7G6lv8);
+    background-repeat: no-repeat;
+}
+#map6{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=45.4573523,-75.5878286&zoom=16&size=800x300&maptype=hybrid&key=AIzaSyBV2eMU1Bt-kPNuO7azMl_dZBwwR7G6lv8);
+    background-repeat: no-repeat;
+}
+/*****  @MEDIA'S    *****/
+@media all and (min-width: 500px) and (max-width: 740px){
+    #banner1{
+        display: none;
+    }
+    #banner2{
+        display: block;   
+    }
+}
+@media all and (min-width: 200px) and (max-width: 499px){
+    #banner1{
+        display: none;
+    }
+    #banner2{
+        display: none;   
+    }
+    #banner3{
+        display: block;   
+    }
+}
